@@ -1,0 +1,19 @@
+{
+    "name": "sls/opentelemetry-php-sdk",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Sls\\OpentelemetryPhpSdk\\": "src/"
+        }
+    },
+    "require": {
+        "php-http/guzzle7-adapter": "*",
+        "guzzlehttp/psr7": "^2.4",
+        "open-telemetry/sdk": "^0.0.13",
+        "open-telemetry/api": "^0.0.13",
+        "php-di/php-di": "^6.4",
+        "slim/slim": "^4.10",
+        "guzzlehttp/guzzle": "^7.4",
+        "php-di/slim-bridge": "^3.2"
+    }
+}
